@@ -1,12 +1,9 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/visual-effect-app/node_modules
-/visual-effect-app/.pnp
-/visual-effect-app/.pnp.js
-/jsx/node_modules
-/jsx/.pnp
-/jsx/.pnp.js
+/node_modules
+/.pnp
+.pnp.js
 
 # testing
 /coverage
@@ -20,11 +17,7 @@
 .env.development.local
 .env.test.local
 .env.production.local
-/visual-effect-app/.idea/
-/jsx/.idea/
 
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-visual-effect-app/.idea/modules.xml
-jsx/.idea/modules.xml
